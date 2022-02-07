@@ -25,14 +25,14 @@ public class NotesViewModel extends AndroidViewModel {
 
     }
 
-    void insertViewModelNotes(Notes notes){
+    public void insertViewModelNotes(Notes notes){
         notesRepository.insertNotes(notes);
     }
 
-    void updateViewModelNotes(Notes notes){
+    public void updateViewModelNotes(Notes notes){
         notesRepository.updateNotes(notes);
     }
-    void deleteViewModelNotes(int id){
+    public void deleteViewModelNotes(int id){
         notesRepository.deleteNotes(id);
     }
 }

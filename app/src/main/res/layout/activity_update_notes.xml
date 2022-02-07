@@ -16,6 +16,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/updateNotesTitle"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
@@ -26,6 +27,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/updateNotesSubTitle"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
@@ -54,19 +56,22 @@
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
+                android:id="@+id/greenPriority"
                 android:layout_margin="10dp"
                 android:background="@drawable/green_shape"
-                android:src="@drawable/ic_baseline_done_24" />
+                 />
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
+                android:id="@+id/yellowPriority"
                 android:layout_margin="10dp"
                 android:background="@drawable/yellow_shape" />
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
+                android:id="@+id/redPriority"
                 android:layout_margin="10dp"
                 android:background="@drawable/red_shape" />
 
@@ -76,6 +81,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="300dp"
+            android:id="@+id/updateNotes"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"

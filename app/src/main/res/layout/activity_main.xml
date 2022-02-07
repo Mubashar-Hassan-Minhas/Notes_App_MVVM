@@ -6,12 +6,60 @@
     android:layout_height="match_parent"
     android:background="#E8E8E8"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filter"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/filter"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/filter_unselected_shape"
+            android:text="No Filter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/filter_unselected_shape"
+            android:text="High to Low"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/filter_unselected_shape"
+            android:text="Low to Hight"/>
+
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/notesRecyclerview"
-        />
+        android:layout_below="@+id/filter" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/newNotesBtn"
