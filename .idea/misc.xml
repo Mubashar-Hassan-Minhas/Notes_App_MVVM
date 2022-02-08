@@ -6,6 +6,7 @@
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/delete_indicator_shape.xml" value="0.1" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/delete_sheet.xml" value="0.1275" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/edit_text_background.xml" value="0.1275" />
+        <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/filter_selected_shape.xml" value="0.1275" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/filter_unselected_shape.xml" value="0.1275" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/green_shape.xml" value="0.1275" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/drawable/no_delete.xml" value="0.1275" />
@@ -19,6 +20,7 @@
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/layout/delete_bottom_sheet.xml" value="0.1" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/layout/item_notes.xml" value="0.1" />
         <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/menu/delete_menu.xml" value="0.19047619047619047" />
+        <entry key="..\:/Users/Dell/StudioProjects/NotesAppMVVM/app/src/main/res/menu/search_notes.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

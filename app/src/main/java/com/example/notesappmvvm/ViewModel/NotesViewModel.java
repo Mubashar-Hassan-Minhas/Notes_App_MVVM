@@ -13,26 +13,31 @@ import java.util.List;
 
 public class NotesViewModel extends AndroidViewModel {
 
-    public  NotesRepository notesRepository;
-    public LiveData<List<Notes>>getAllNotes;
+    public NotesRepository notesRepository;
+    public LiveData<List<Notes>> getAllNotes;
+    public LiveData<List<Notes>> lowToHigh;
+    public LiveData<List<Notes>> highToLow;
 
     public NotesViewModel(@NonNull Application application) {
         super(application);
 
-       notesRepository=new NotesRepository(application);
-       getAllNotes=notesRepository.getAllNotes;
+        notesRepository = new NotesRepository(application);
+        getAllNotes = notesRepository.getAllNotes;
+        lowToHigh = notesRepository.lowToHigh;
+        highToLow = notesRepository.highToLow;
 
 
     }
 
-    public void insertViewModelNotes(Notes notes){
+    public void insertViewModelNotes(Notes notes) {
         notesRepository.insertNotes(notes);
     }
 
-    public void updateViewModelNotes(Notes notes){
+    public void updateViewModelNotes(Notes notes) {
         notesRepository.updateNotes(notes);
     }
-    public void deleteViewModelNotes(int id){
+
+    public void deleteViewModelNotes(int id) {
         notesRepository.deleteNotes(id);
     }
 }

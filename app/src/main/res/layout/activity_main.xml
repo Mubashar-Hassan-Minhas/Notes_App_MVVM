@@ -6,51 +6,62 @@
     android:layout_height="match_parent"
     android:background="#E8E8E8"
     tools:context=".MainActivity">
+
     <LinearLayout
+        android:id="@+id/filter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/filter"
-        android:layout_margin="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal">
+
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_margin="10dp"
-            android:background="@drawable/filter"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:layout_margin="7dp"
-            android:background="@drawable/filter_unselected_shape"
-            android:text="No Filter"/>
+            android:background="@drawable/filter" />
 
         <TextView
+            android:id="@+id/noFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:layout_margin="7dp"
+            android:layout_margin="5dp"
             android:background="@drawable/filter_unselected_shape"
-            android:text="High to Low"/>
+            android:paddingStart="10dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="7dp"
+            android:text="No Filter" />
+
         <TextView
+            android:id="@+id/highToLow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:layout_margin="7dp"
+            android:layout_margin="5dp"
             android:background="@drawable/filter_unselected_shape"
-            android:text="Low to Hight"/>
+            android:paddingStart="10dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="7dp"
+            android:text="High to Low" />
+
+        <TextView
+            android:id="@+id/lowToHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/filter_unselected_shape"
+            android:paddingStart="10dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="7dp"
+            android:text="Low to High" />
 
 
     </LinearLayout>
